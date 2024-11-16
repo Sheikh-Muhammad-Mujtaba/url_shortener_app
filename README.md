@@ -1,6 +1,3 @@
-Here's a **README.md** file for your **URL Shortener** project:
-
----
 
 # URL Shortener
 
@@ -30,7 +27,7 @@ A simple and elegant URL shortener application built with **Next.js**, **React**
 
 ## 🌐 Live Demo
 
-Check out the live app here: [**URL Shortener**](https://github.com/Sheikh-Muhammad-Mujtaba/url-shortener)  
+Check out the live app here: [**URL Shortener**](https://url-shortener-app-iota.vercel.app/)  
 
 ---
 
