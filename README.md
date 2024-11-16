@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here's a **README.md** file for your **URL Shortener** project:
 
-## Getting Started
+---
 
-First, run the development server:
+# URL Shortener
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A simple and elegant URL shortener application built with **Next.js**, **React**, and **Bitly API**. This app allows users to shorten long URLs into compact, shareable links and provides a smooth user experience with modern UI and responsive notifications.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Effortless URL Shortening**: Paste any long URL to generate a short, shareable link.
+- **Copy-to-Clipboard**: Quickly copy the shortened URL with a single click.
+- **Mobile-Responsive**: Fully optimized for mobile and desktop users.
+- **Toast Notifications**: Get notified with visually appealing alerts for success or error states.
+- **Modern Design**: Sleek and minimal UI, styled with Tailwind CSS.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js**: Framework for server-side rendering and static site generation.
+- **React**: Frontend library for building UI components.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Bitly API**: Third-party API for URL shortening.
+- **React-Toastify**: Library for beautiful notifications.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🌐 Live Demo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Check out the live app here: [**URL Shortener**](https://github.com/Sheikh-Muhammad-Mujtaba/url-shortener)  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🖥️ Getting Started
+
+Follow these instructions to set up and run the project locally.
+
+### Prerequisites
+- Node.js and npm installed.
+- Bitly API account and an **Access Token**.
+
+---
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Sheikh-Muhammad-Mujtaba/url-shortener.git
+   cd url-shortener
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Create `.env` file**:
+   Add your Bitly API Access Token in the `.env` file:
+   ```
+   NEXT_PUBLIC_BITLY_ACCESS_TOKEN=your-bitly-access-token
+   ```
+
+4. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+5. **Open in browser**:
+   Visit `http://localhost:3000`.
+
+---
+
+## 📷 Screenshots
+
+### Home Page
+![URL Shortener Screenshot](./image.png)  
+
+---
+
+## 🧪 Usage
+
+1. Enter a long URL in the input field.
+2. Click the **Shorten** button.
+3. Copy the shortened URL using the **copy button** or click the link to verify.
+
+---
